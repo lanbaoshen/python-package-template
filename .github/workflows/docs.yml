@@ -28,7 +28,7 @@ jobs:
         with:
           python-version-file: "pyproject.toml"
 
-      - run: uv sync --all-extras --doc
+      - run: uv sync --group doc
       - run: uv run zensical build --clean
       - uses: actions/upload-pages-artifact@v4
         with:
