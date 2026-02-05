@@ -56,6 +56,13 @@ To preview the documentation locally, you can use `zensical`:
 zensical serve
 ```
 
+You need to set the repo GitHub page from branch to `Github Actions`:
+
+1. Go to your repository on GitHub.
+2. Click on `Settings` in the top menu.
+3. In the left sidebar, click on `Pages`.
+4. Under `Build and deployment`, select `Source` as `GitHub Actions`.
+
 After you push a new tag to your repository, the GitHub Action will automatically generate the documentation and publish it to GitHub Pages.
 
 ## PyPI
